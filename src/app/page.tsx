@@ -30,8 +30,8 @@ export default function Home() {
           </div>
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="text-center">
-              <h1 className="text-4xl font-bold text-gray-900 sm:text-6xl">We craft cutting-edge technology solutions from the future.</h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600 px-5">Redefining what&apos;s possible, integrating seamlessly and <br className="hidden md:block" />offering a glimpse into tomorrow&apos;s world... today.</p>
+              <h1 className="text-4xl font-bold text-gray-900 sm:text-6xl">We craft cutting-edge digital solutions that accelerate growth.</h1>
+              <p className="mt-6 text-lg leading-8 text-gray-600 px-5">Seamless innovation that fuels engagement and success.</p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Link href="#services" className="text-sm font-semibold leading-6 text-gray-900 px-1.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">Our services <span aria-hidden="true">&rarr;</span></Link>
               </div>
@@ -57,7 +57,7 @@ export default function Home() {
         <div className="relative isolate mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-20">
             <h2 className="text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl">Here&apos;s what we offer</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600 px-5">Our team has over a decade of experience building consumer <br className="hidden md:block" />and enterprise technology solutions and experiences.</p>
+            <p className="mt-6 text-lg leading-8 text-gray-600 px-5">Our team has over a decade of experience building <br className="hidden md:block" />consumer and enterprise technology solutions.</p>
           </div>
 
           <div className="md:flex mt-10 md:px-16">
@@ -72,7 +72,6 @@ export default function Home() {
                 <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> Node.js</li>
                 <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> MERN / MEVN</li>
                 <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> Next.js</li>
-                <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> Remix</li>
               </ul>
             </div>
             <div className="flex-1 p-8 sm:p-10 md:mb-0 mb-10 rounded-3xl ring-1 ring-gray-200 mx-5 bg-white">
@@ -99,9 +98,9 @@ export default function Home() {
                 <div className="h-px flex-auto bg-gray-100" />
               </div>
               <ul role="list" className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6" >
-                <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> Salesforce</li>
                 <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> Google</li>
                 <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> AWS</li>
+                <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> Salesforce</li>
               </ul>
             </div>
             <div className="flex-1 p-8 sm:p-10 md:mb-0 mb-10 rounded-3xl ring-1 ring-gray-200 mx-5 bg-white">
@@ -112,10 +111,9 @@ export default function Home() {
                 <div className="h-px flex-auto bg-gray-100" />
               </div>
               <ul role="list" className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6" >
-                <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> Tray.io</li>
                 <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> HubSpot</li>
+                <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> N8N</li>
                 <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> Shopify</li>
-                <li className="flex gap-x-3"><CheckIcon className="h-6 w-5 flex-none text-pink-600" aria-hidden="true" /> Make</li>
               </ul>
             </div>
           </div>
