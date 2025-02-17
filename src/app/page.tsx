@@ -15,7 +15,7 @@ export default function Home() {
               </a>
             </div>
             <div className="lg:flex lg:flex-1 lg:justify-end">
-              <a href="mailto:team@asqrd.dev" title="team@asqrd.dev" className="rounded-full bg-pink-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">Start a project</a>
+              <a href="mailto:team@asqrd.dev" title="team@asqrd.dev" className="rounded-full bg-pink-400 px-3.5 py-2.5 text-md font-semibold text-white hover:bg-pink-500 shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">Start a project</a>
             </div>
           </nav>
         </header>
