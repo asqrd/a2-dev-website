@@ -9,10 +9,10 @@ export default function Home() {
         <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
-              <a href="/" className="shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">
+              <Link href="/" className="shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">
                 <span className="sr-only">A Squared &mdash; Development</span>
                 <Image className="h-16 w-auto" src="a2.svg" alt="A Squared - Development" width={0} height={0} />
-              </a>
+              </Link>
             </div>
             <div className="lg:flex lg:flex-1 lg:justify-end">
               <a href="mailto:team@asqrd.dev" title="team@asqrd.dev" className="rounded-full bg-pink-400 px-3.5 py-2.5 text-md font-semibold text-white hover:bg-pink-500 shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">Start a project</a>
